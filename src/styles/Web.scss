@@ -1,0 +1,30 @@
+@import "./Fonts.scss";
+
+.bodyText {
+    @include primaryP();
+}
+
+html {
+    background: $light0;
+    font-size: 8px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: $light0;
+    @include primaryP();
+}
+
+.container {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

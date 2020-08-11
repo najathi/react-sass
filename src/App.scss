@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Hurme-Geometric-Sans-No.4';
+    src: url('../src/assets/fonts/Hurme-Geometric-Sans-4-W00-Bold.woff2') format('woff2'),
+        url('../src/assets/fonts/Hurme-Geometric-Sans-4-W00-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../src/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+$fontPrimary: 'Hurme-Geometric-Sans-No.4';
+$fontSecondary: 'OpenSans';
+
+.text__2 {
+    color: red;
+    font-family: $fontPrimary;
+}
